@@ -1,0 +1,12 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+main: ${plugin.mainClass}
+
+commands:
+  count:
+    usage: /<command> [entity|tile|both] [world]
+    description: Counts the entities or tileentities currently loaded.
+  view:
+    usage: /<command> <type|chunk> [page]
+    description: View the counted entities or tileentities by type or chunk
